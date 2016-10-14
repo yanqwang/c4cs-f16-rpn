@@ -1,0 +1,7 @@
+language: python
+
+python: 
+	- 3.5
+
+
+recursive.cpp test_helpers.cpp -o filter_test
