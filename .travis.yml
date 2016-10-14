@@ -2,6 +2,6 @@ language: python
 
 python: 
 	- 3.5
+script:
 
-
-recursive.cpp test_helpers.cpp -o filter_test
+	python3 -m unittest
